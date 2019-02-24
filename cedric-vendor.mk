@@ -1003,7 +1003,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
+    vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so
 
 # WFD
 PRODUCT_COPY_FILES += \
