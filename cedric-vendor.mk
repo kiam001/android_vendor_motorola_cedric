@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
     vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
@@ -175,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/motorola/cedric/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:/system/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -1341,11 +1339,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:/system/vendor/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:/system/vendor/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libcpion.so:/system/vendor/lib64/libcpion.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
