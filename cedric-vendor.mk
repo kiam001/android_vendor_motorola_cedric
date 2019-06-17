@@ -140,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/cedric/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/motorola/cedric/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/motorola/cedric/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
     vendor/motorola/cedric/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/motorola/cedric/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/motorola/cedric/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
