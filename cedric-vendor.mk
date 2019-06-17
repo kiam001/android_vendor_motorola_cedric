@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/SwimConfig.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
-    vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/motorola/cedric/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/motorola/cedric/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/cedric/proprietary/vendor/firmware/DE.o.msm8937:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8937 \
     vendor/motorola/cedric/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/motorola/cedric/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
@@ -74,30 +74,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/cedric/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/cedric/proprietary/vendor/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sensorhubfw.bin \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-s3508-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat \
     vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat \
     vendor/motorola/cedric/proprietary/vendor/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:$(TARGET_COPY_OUT_VENDOR)/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/cedric/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/cedric/proprietary/vendor/firmware/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/cedric/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/cedric/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin \
-    vendor/motorola/cedric/proprietary/vendor/firmware/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WCNSS_qcom_wlan_nv_Argentina.bin \
+    vendor/motorola/cedric/proprietary/vendor/firmware/wlan/primaWCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/primaWCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/cedric/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
-    vendor/motorola/cedric/proprietary/vendor/firmware/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WCNSS_qcom_wlan_nv_Brazil.bin \
+    vendor/motorola/cedric/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/cedric/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_India.bin \
-    vendor/motorola/cedric/proprietary/vendor/firmware/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WCNSS_qcom_wlan_nv_India.bin \
+    vendor/motorola/cedric/proprietary/vendor/firmware/wlan/primaWCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/primaWCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/cedric/proprietary/vendor/etc/wifi/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/cedric/proprietary/vendor/firmware/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/WCNSS_wlan_dictionary.dat \
+    vendor/motorola/cedric/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/cedric/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
     vendor/motorola/cedric/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/motorola/cedric/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/motorola/cedric/proprietary/etc/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
+    vendor/motorola/cedric/proprietary/vendor/etc/permissions/com.motorola.cameraone:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.cameraone \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -111,7 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/permissions/qti-vzw-ims-intenral.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-intenral.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
-    vendor/motorola/cedric/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/cedric/proprietary/vendor/etc/firmware/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/qti_permissions.xml \
     vendor/motorola/cedric/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/motorola/cedric/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/motorola/cedric/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
